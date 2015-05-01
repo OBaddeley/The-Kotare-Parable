@@ -14,12 +14,13 @@ namespace KotareParable
             
         }
 
-        public void Run(string command)
+        public void Run()
         {
             View view = new View();
             //Model model = new Model();
 
             view.WelcomeMessage();
+            view.GetResponse();
 
             // while input from user/command line that is not exit, or we reach end of game / game in session is true
 

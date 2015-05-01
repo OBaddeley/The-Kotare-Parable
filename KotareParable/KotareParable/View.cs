@@ -13,13 +13,18 @@ namespace KotareParable
 
         public void WelcomeMessage()
         {
-            Console.WriteLine("Welcome to THE KOTARE PARABLE");
+            Console.WriteLine("Welcome to THE KOTARE PARABLE\n");
+            Console.WriteLine("You wake up in a dark room. You have no idea how you got here, but you know you need to escape! " +
+                              "\nYou try the door and are surprised to find it unlocked." +
+                              "\nThe hallway outside goes left and right, which way will you go?");
+         
         }
 
 
         // read input from console
         public void GetResponse()
         {
+            Console.WriteLine("\nWhat is your decision?");
             Console.ReadLine();
         }
         
