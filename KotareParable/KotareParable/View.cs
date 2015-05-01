@@ -22,23 +22,27 @@ namespace KotareParable
 
 
         // read input from console
-        public void GetResponse()
+        public string GetResponse()
         {
             Console.WriteLine("\nWhat is your decision?");
-            Console.ReadLine();
+            var response = Console.ReadLine();
+            return response;
         }
         
 
         // read from model table
-        //public void PrintOutcome(//get tablerow from controller)
-        //{
-        //    // ? new db instance
-
-        //    Console.WriteLine();  // row from table table.description
-
-        //}
+        public void PrintOutcome(string statement)
+        {
+            Console.WriteLine(statement);  // row from table table.description
+        }
 
 
-
+        public void GameOver()
+        {
+            Console.WriteLine("\nGAME OVER!!!!!!!!!!!!!!!!!!!!!");
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
+            Environment.Exit(0);
+        }
     }
 }
