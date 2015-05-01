@@ -9,7 +9,7 @@ namespace KotareParable
     {
         public int Id { get; set; }
         public string Statement { get; set; }
-        public virtual List<Response> Responses { get; set; }
+        //public virtual List<Response> Responses { get; set; }
         //public int Yes { get; set; }
         //public int No { get; set; }
     }

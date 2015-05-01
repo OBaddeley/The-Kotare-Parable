@@ -19,7 +19,8 @@ namespace KotareParable
             View view = new View();
             Model model = new Model();
             
-            //view.WelcomeMessage();
+            view.WelcomeMessage();
+            var begin = model.GetNextNarration(1);
 
             while (model.GameIsActive())
             {
@@ -30,9 +31,11 @@ namespace KotareParable
                 var res = model.CheckResponse(response);
                 if (res == 0)
                 {
-                    view.
+                    view.InvalidResponse();
+
                 }
-                
+                var nextNarration = model.GetNextNarration(res);
+                view.PrintOutcome(nextNarration);
 
                 //var ID = model.YesOrNo(response); //this will return an int that represents an ID
 
