@@ -1,16 +1,17 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace KotareParable
 {
-    public class Narration
+    public class Response
     {
         public int Id { get; set; }
         public string Statement { get; set; }
-        public virtual List<Response> Responses { get; set; }
-        //public int Yes { get; set; }
-        //public int No { get; set; }
+        public int? NarrationId { get; set; }
+        [ForeignKey("NarrationId")]
+        public Narration Narration { get; set; }
     }
 }
