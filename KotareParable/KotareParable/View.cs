@@ -33,6 +33,12 @@ namespace KotareParable
             Console.WriteLine(statement);  // row from table table.description
         }
 
+        public void InvalidResponse()
+        {
+            Console.WriteLine("Try again, moron!");
+
+        }
+
 
         public void GameOver()
         {

@@ -18,9 +18,9 @@ namespace KotareParable
         {
             View view = new View();
             Model model = new Model();
-
-
+            
             view.WelcomeMessage();
+            var begin = model.GetNextNarration(1);
 
             while (model.GameIsActive())
             {
@@ -28,13 +28,21 @@ namespace KotareParable
                 var response = view.GetResponse();
                 ////Model needs to accept the string returned from GetResponse
                 //accept it as an arg to a method on the model
-                
+                var res = model.CheckResponse(response);
+                if (res == 0)
+                {
+                    view.InvalidResponse();
+
+                }
+                var nextNarration = model.GetNextNarration(res);
+                view.PrintOutcome(nextNarration);
+
                 //var ID = model.YesOrNo(response); //this will return an int that represents an ID
 
-               // var statement = model.GetNextNarration(ID);
-                    //this returns the string for the next statement by the narrator
+                // var statement = model.GetNextNarration(ID);
+                //this returns the string for the next statement by the narrator
 
-               // view.PrintOutcome(statement);
+                // view.PrintOutcome(statement);
 
 
             }
