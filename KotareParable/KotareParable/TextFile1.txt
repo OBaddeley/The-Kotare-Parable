@@ -1,0 +1,22 @@
+﻿Dark Room: You wake up in a dark room. You're not sure how you got here, but you need to escape. Upon trying the door, you find it unlocked and you walk out. The hallway outside goes left and right. Which way will you go?
+
+Dark Room Left -> Lift: You come to a lift and decide to take a ride. You go to press the button for up or down.
+Dark Room Right -> Long Hall: You continue down the hall for what feels like ages. Soon you come to a hole in the wall to your left. You can crawl into the hole or continue down the seemingly endless hall.
+
+Lift Up -> Attic: You come to a cobweb-filled, attic. You look around and amongst the clutter and you find a box that looks as though it was recently added. On the other side of the room is a window. You begin to approach one.
+Lift Down -> Basement: You come to a damp and musty basement. You see both a cat and a rat and know that one will lead you to your freedom, and the other to your death. You begin to approach one.
+
+Long Hall -> Wardrobe: You crawl into the hole and eventually make your way into what appears to be a wardrobe. Your only way out of this cramped space is to open the door or turn around back into the hole.
+Long Hall -> Continue: You continue for what feels like hours. You begin to hear a noise from behind you which gradually begins to grow louder. As tired as you are, you feel as though you should run, although you could also turn around to investigate.
+
+Attic -> Box: Inside the box you find a laptop and bag of Doritos. You settle down and no longer feel the need to escape.
+Attic -> Window: In a desperate bid to escape you dive out the window, only to find that you're on the 9th floor of the building. Thankfully, you land in the moat and swim to safety.
+
+Basement -> Cat: You're allergic to cats but you approach it anyway for some reason, dummy.
+Basement -> Rat: The rat is actully Splinter from the Teenage Mutant Ninja Turtles. He karate chops a hole in the wall and you walk out. Cool.
+
+Wardrobe -> You walk out of the wardrobe and find yourself in an empty room. You turn around and try the door but find it just leads to a regular wardrobe. Better get comfortable.
+Wardrobe -> You turn around and try to fit yourself back into the hole but get stuck. You find yourself in a position where you can't go forward or backwards. Better get comfortable.
+
+Long Hall -> You stop to investigate and find the janitor approach you. "Are you the guy that fell asleep in the boiler room? Your family's been looking for you. Come with me, we'll go upstairs." You meet up with your family and go out for icecream.
+Long Hall -> You keep running but the noise behind you keeps getting closer and closer. Your vision blurs and finally you can run no further and pass out. You wake up in a dark room...
