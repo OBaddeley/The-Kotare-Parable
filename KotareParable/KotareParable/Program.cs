@@ -10,6 +10,10 @@ namespace KotareParable
     {
         static void Main(string[] args)
         {
+
+            Controller control = new Controller();
+            control.Run(args.ToString());
+   
         }
     }
 }
