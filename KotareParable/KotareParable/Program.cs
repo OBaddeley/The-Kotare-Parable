@@ -10,6 +10,12 @@ namespace KotareParable
     {
         static void Main(string[] args)
         {
+            Console.Title = "THE KOTARE PARABLE";
+
+            Controller control = new Controller();
+            control.Run();
+
+            Console.ReadLine();
         }
     }
 }

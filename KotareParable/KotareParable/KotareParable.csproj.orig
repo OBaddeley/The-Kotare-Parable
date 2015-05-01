@@ -50,6 +50,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <Compile Include="Controller.cs" />
+=======
     <Compile Include="KotareParableDBcontext.cs" />
     <Compile Include="Migrations\201505010032209_init.cs" />
     <Compile Include="Migrations\201505010032209_init.Designer.cs">
@@ -58,7 +61,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model.cs" />
     <Compile Include="Narration.cs" />
-    <Compile Include="Controller.cs" />
+>>>>>>> 55eb72d7d0f2db76668ff67c9544fccb2a102ad7
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View.cs" />
