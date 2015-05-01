@@ -18,12 +18,20 @@ namespace KotareParable
             KotareParableDBcontext context = new KotareParableDBcontext();
             //context.Narrations.
 
-
             //_currentYes = row.Yes
             //_currentNo = row.No
             //_currentId = row.Id
+
+            //
+
             return "nextNarration";
         }
+
+        public bool GameIsActive()
+        {
+            //if id 99 comes back, set to false
+            return true;
+        } 
 
         //public void
 
